@@ -29,10 +29,27 @@
 
  <div id="content">
    <h3 id="concept">› Concept</h3>
-   <p>Test-Driven Development (TDD)  </p>
-   <p>&nbsp;</p>
-   <p>&nbsp;</p>
- </div>
+   <p>The TDD life cycle consists of the following four phases:</p>
+   <ol>
+     <li>
+       <h6><strong>Write a test</strong></h6>
+       <p>After specifying a system functionality that you need to develop next, you need to think about how you can test that functionality. You should write an automated test that makes sure the functionality works as specified. After writing the test, write some code that would just make the test run. The test will fail, of course, because the functionality has not been implemented yet. </p>
+     </li>
+       <li>
+       <h6><strong>Code the functionality</strong></h6>
+       <p>Once the automated test has been created, the developer can start coding the functionality. The developer can run the test at any time during the coding process to see weather the functionality has been developed as it should be or not. Once the test is passed, the developer can move on to the next step with the confidence that the code does exactly what it should do. </p>
+       </li>
+       
+             <li>
+               <h6><strong>Refactor</strong></h6>
+               <p>The main goal of the previous step is to write a code that would make the test pass. In this step, however, you have a working code but you need to make it better. You will not attempt to change the functionality of the code during this step. All you need to do is redesign the code to make it better and more readable. Since you have an automated test for this functionality, you should always run it to make sure that you still have a working code. </p>
+             </li>
+              <li>
+                <h6><strong>Repeat</strong></h6>
+                <p>Now that the developer has a functionality that is working along with the automated test that tests the functionality, the developer goes back to step one and start writing a test for the next functionality. Each time a new functionality is added to the system, all automated tests should run using some testing framework. Once the system has been fully developed, there would be at least one test for each functionality in the system which increases the system reliability. </p>
+              </li>
+     </ol>
+</div>
 
 <div class="br"></div>
 <div id="footer">
