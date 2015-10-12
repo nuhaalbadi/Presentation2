@@ -35,13 +35,25 @@
    <ul>
    
    <li>
-     <h6>Unite Testing </h6>
-     <p>Unite testing tests individual functions or methods within a larger module or class. Unite testing ensures that every single unit in the code works according to its specification. A function may have multiple unit tests each testing a particular part of that function. All unite tests should be automated. Whenever a change is made into a paticular module, all unit tests should run again. </p>
+     <h6>Unit Testing </h6>
+     <p>Unit testing tests individual functions or methods within a larger module or class. Unit testing ensures that every single unit in the code works according to its specification. A function may have multiple unit tests each testing a particular part of that function. All unit tests should be automated. Whenever a change is made in a particular module, all unit tests should run again. In order for unit tests to be effective they need to have the following characteristics:</p>
    </li>
+   <ul type="square">
+   <li>
+     <p> Unit tests should run fast. </p>
+     <li>
+       <p>Unit tests should be self-explanatory. In other words, they should be clear and readable. </p>
+     <li>
+       <p>Unit tests should be platform independent. Unite tests that can be run in different platforms are more reliable than platform-dependent tests. </p>
+     <li>
+       <p>Unit tests should isolate dependency on other parts of the software such as databases. Theses isolation can be done using simulations and mocking. </p>
+     </li>
+   </li>
+   </ul>
    
    <li>
      <h6>Integration Testing </h6>
-     <p>Integration testing is an extremely important type of testing in TDD. It insures that all unites are still working as they should be when integrated. A lot of problems arise when two or more modules are brought together. Therefore, in TDD it is important to continuously integrate units and to develop automated test that insures all units are still working right. </p>
+     <p>Integration testing is an extremely important type of testing in TDD. It insures that all units are still working as they should be when integrated. A lot of problems arise when two or more modules are brought together. Therefore, in TDD it is important to continuously integrate units and to develop automated tests that insure all units are still working right. </p>
    </li>
    
    <li>
