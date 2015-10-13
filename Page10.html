@@ -46,12 +46,15 @@
  </li>
  <li>
    <h5>Do not write a new test unless all tests are passed</h5>
-   <p>To</p>
-</li>
+   <p>Sometimes it is tempting to leave behind a code with failing tests and start developing new test for a new feature and worry about the broken code later. This should never happen in TDD as it will make fixing the functionality more expensive because later you will have a larger system, and you want to make sure your functionality is working right when integrated to the system. In TDD it is a requirement that you always have a working code with passing tests during the development process. Therefore, if a test is failing, fix the code and make the test passes, only then start writing a test for a new functionality.</p>
+ </li>
  <li>
-   <h5>Do not start refactoring unless test is passed </h5>
-   <p>To</p>
-</li>
+   <h5>Do not start refactoring until all tests are passed </h5>
+   <p>First things first, first worry about implementing the functionality and making sure you have implemented it right. Then, worry about refactoring the code and making it better. This also helps refactoring the code in a safe way, the code was working before refactoring, and it should also be working after refactoring. </p>
+ </li>
+ <li>
+   <h5>Keep design simple and clean</h5>
+   <p>Simplicity is a key feature in all of agile processes including TDD. Do not worry about implementing functionalities that you THINK you might need in the future. Also, write the simplest code possible to make the test passes. When you have a simple code, changing it will be easier and cheaper. Therefore, do not make your system complex when it can be simple. </p>
  <li>
    <h5>All tests should be independent  of each other</h5>
    <p>To</p>
