@@ -61,12 +61,12 @@
  </li>
  <li>
    <h5>Write tests that run fast </h5>
-   <p>To</p>
-</li>
+   <p>Tests that take a while to run discourage developers from running them. As being said earlier, whenever a change is made to the code, you need to run all tests whether they test the changed code or not. However, if tests take a long time to run, you may become tempted to run only the tests that could be affected after changing the code, and this is not what TDD is all about. </p>
+ </li>
  <li>
    <h5>Use mocks to simulate dependencies</h5>
-   <p>To</p>
-</li>
+   <p>In order to write tests that run fast, you need to mock dependency on systems that are outside the function being tested. For example, if your function reads from a database, do not let the test read from the actual database. Instead use mocks or interfaces in your test to simulate the behavior of databases and other services that your function need to access. </p>
+ </li>
  
    </ul>
    
