@@ -1,4 +1,4 @@
-Presentation on Testt-Driven Development
+Presentation on Test-Driven Development
 
 CSCI 5828: Foundations of Software Engineering
 
